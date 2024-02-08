@@ -8,6 +8,7 @@
   },
   "scripts": {
     "scrape1": "node prac1.js",
-    "scrape2": "node prac2.js"
+    "scrape2": "node prac2.js",
+    "scrape3": "node prac3.js"
   }
 }
