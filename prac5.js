@@ -35,13 +35,13 @@ const playwright = require("playwright");
             .querySelector(`thead > tr > th:nth-child(${index})`)
             .innerText.trim();
           const td1 = element.querySelector(
-            `tr:nth-child(1) > td:nth-child(${index})`
+            `tbody > tr:nth-child(1) > td:nth-child(${index})`
           ).innerText;
           const td2 = element.querySelector(
-            `tr:nth-child(2) > td:nth-child(${index})`
+            `tbody > tr:nth-child(2) > td:nth-child(${index})`
           ).innerText;
           const td3 = element.querySelector(
-            `tr:nth-child(3) > td:nth-child(${index})`
+            `tbody > tr:nth-child(3) > td:nth-child(${index})`
           ).innerText;
           return [th, td1, td2, td3];
         });
@@ -80,13 +80,13 @@ const playwright = require("playwright");
             .querySelector(`thead > tr > th:nth-child(${index})`)
             .innerText.trim();
           const td1 = element.querySelector(
-            `tr:nth-child(1) > td:nth-child(${index})`
+            `tbody > tr:nth-child(1) > td:nth-child(${index})`
           ).innerText;
           const td2 = element.querySelector(
-            `tr:nth-child(2) > td:nth-child(${index})`
+            `tbody > tr:nth-child(2) > td:nth-child(${index})`
           ).innerText;
           const td3 = element.querySelector(
-            `tr:nth-child(3) > td:nth-child(${index})`
+            `tbody > tr:nth-child(3) > td:nth-child(${index})`
           ).innerText;
           return [th, td1, td2, td3];
         }, index);
