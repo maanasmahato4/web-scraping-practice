@@ -1,3 +1,5 @@
+// E-commerce site with pagination links
+
 const playwright = require("playwright");
 
 (async () => {

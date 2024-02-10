@@ -1,3 +1,5 @@
+// E-commerce site with "Load more" buttons
+
 const playwright = require("playwright");
 
 (async () => {

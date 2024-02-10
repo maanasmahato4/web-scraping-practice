@@ -1,3 +1,5 @@
+// Ecommerce scraping
+
 const playwright = require("playwright");
 
 (async () => {

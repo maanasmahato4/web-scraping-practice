@@ -10,6 +10,7 @@
     "scrape1": "node prac1.js",
     "scrape2": "node prac2.js",
     "scrape3": "node prac3.js",
-    "scrape4": "node prac4.js"
+    "scrape4": "node prac4.js",
+    "scrape5": "node prac5.js"
   }
 }
